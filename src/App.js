@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3000/users')
+    fetch(' https://keithfrank.github.io/monsters-rolodex/users')
       .then(response => response.json())
       .then(users => this.setState({ monsters: users }));
   }
